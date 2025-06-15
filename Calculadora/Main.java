@@ -1,7 +1,8 @@
 package Calculadora;
+
 import java.util.Scanner;
 
-public class Calculadora {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,10 +20,12 @@ public class Calculadora {
         double resultado = 0;
 
         switch (operacion) {
+
             case '+':
                 // resultado = num1 + num2;
                 System.out.println("Operación de suma aún no implementada.");
                 break;
+
             case '-':
                 // resultado = num1 - num2;
                 System.out.println("Operación de resta aún no implementada.");
@@ -40,7 +43,7 @@ public class Calculadora {
                 return;
         }
 
-        // System.out.println("Resultado: " + resultado);
+        //System.out.println("Resultado: " + resultado);
         scanner.close();
     }
 }
