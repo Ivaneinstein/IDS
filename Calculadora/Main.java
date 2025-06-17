@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== Calculadora Básica ===");
-        System.out.print("Ingresa el primer número: ");
+        System.out.println("=== Calculadora Bï¿½sica ===");
+        System.out.print("Ingresa el primer nï¿½mero: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Ingresa el segundo número: ");
+        System.out.print("Ingresa el segundo nï¿½mero: ");
         double num2 = scanner.nextDouble();
 
-        System.out.print("Elige una operación (+, -, *, /): ");
+        System.out.print("Elige una operaciï¿½n (+, -, *, /): ");
         char operacion = scanner.next().charAt(0);
 
         double resultado = 0;
@@ -23,23 +23,23 @@ public class Main {
 
             case '+':
                 // resultado = num1 + num2;
-                System.out.println("Operación de suma aún no implementada.");
+                System.out.println("Operaciï¿½n de suma aï¿½n no implementada.");
                 break;
 
             case '-':
                 // resultado = num1 - num2;
-                System.out.println("Operación de resta aún no implementada.");
+                System.out.println("Operaciï¿½n de resta aï¿½n no implementada.");
                 break;
             case '*':
                 // resultado = num1 * num2;
-                System.out.println("Operación de multiplicación aún no implementada.");
+                System.out.println("Operaciï¿½n de multiplicaciï¿½n aï¿½n no implementada.");
                 break;
             case '/':
-                // resultado = num1 / num2;
-                System.out.println("Operación de división aún no implementada.");
+                resultado = num1 / num2;
+                //System.out.println("Operaciï¿½n de divisiï¿½n aï¿½n no implementada.");
                 break;
             default:
-                System.out.println("Operación no válida.");
+                System.out.println("Operaciï¿½n no vï¿½lida.");
                 return;
         }
 
