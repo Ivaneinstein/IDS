@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== Calculadora Básica ===");
-        System.out.print("Ingresa el primer número: ");
+        System.out.println("=== Calculadora B�sica ===");
+        System.out.print("Ingresa el primer n�mero: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Ingresa el segundo número: ");
+        System.out.print("Ingresa el segundo n�mero: ");
         double num2 = scanner.nextDouble();
 
-        System.out.print("Elige una operación (+, -, *, /): ");
+        System.out.print("Elige una operaci�n (+, -, *, /): ");
         char operacion = scanner.next().charAt(0);
 
         double resultado = 0;
@@ -22,28 +22,27 @@ public class Main {
         switch (operacion) {
 
             case '+':
-                //resultado = num1 + num2;
+                // resultado = num1 + num2;
                 System.out.println("Operación de suma aún no implementada.");
-                break;
 
             case '-':
                 // resultado = num1 - num2;
-                System.out.println("Operación de resta aún no implementada.");
+                System.out.println("Operaci�n de resta a�n no implementada.");
                 break;
             case '*':
                 // resultado = num1 * num2;
-                System.out.println("Operación de multiplicación aún no implementada.");
+                System.out.println("Operaci�n de multiplicaci�n a�n no implementada.");
                 break;
             case '/':
-                // resultado = num1 / num2;
-                System.out.println("Operación de división aún no implementada.");
+                resultado = num1 / num2;
+                // System.out.println("Operaci�n de divisi�n a�n no implementada.");
                 break;
             default:
-                System.out.println("Operación no válida.");
+                System.out.println("Operaci�n no v�lida.");
                 return;
         }
 
-        //System.out.println("Resultado: " + resultado);
+        // System.out.println("Resultado: " + resultado);
         scanner.close();
     }
 }
