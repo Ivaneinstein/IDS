@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== Calculadora B谩sica ===");
-        System.out.print("Ingresa el primer n煤mero: ");
+        System.out.println("=== Calculadora B醩ica ===");
+        System.out.print("Ingresa el primer n鷐ero: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Ingresa el segundo n煤mero: ");
+        System.out.print("Ingresa el segundo n鷐ero: ");
         double num2 = scanner.nextDouble();
 
-        System.out.print("Elige una operaci贸n (+, -, *, /): ");
+        System.out.print("Elige una operaci髇 (+, -, *, /): ");
         char operacion = scanner.next().charAt(0);
 
         double resultado = 0;
@@ -23,23 +23,23 @@ public class Main {
 
             case '+':
                 // resultado = num1 + num2;
-                System.out.println("Operaci贸n de suma a煤n no implementada.");
+                System.out.println("Operaci髇 de suma a鷑 no implementada.");
                 break;
 
             case '-':
                 // resultado = num1 - num2;
-                System.out.println("Operaci贸n de resta a煤n no implementada.");
+                System.out.println("Operaci髇 de resta a鷑 no implementada.");
                 break;
             case '*':
                 // resultado = num1 * num2;
-                System.out.println("Operaci贸n de multiplicaci贸n a煤n no implementada.");
+                System.out.println("Operaci髇 de multiplicaci髇 a鷑 no implementada.");
                 break;
             case '/':
                 // resultado = num1 / num2;
-                System.out.println("Operaci贸n de divisi贸n a煤n no implementada.");
+                System.out.println("Operaci髇 de divisi髇 a鷑 no implementada.");
                 break;
             default:
-                System.out.println("Operaci贸n no v谩lida.");
+                System.out.println("Operaci髇 no v醠ida.");
                 return;
         }
 
