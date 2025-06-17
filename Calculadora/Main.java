@@ -22,15 +22,15 @@ public class Main {
         switch (operacion) {
 
             case '+':
-                // resultado = num1 + num2;
-                System.out.println("Operación de suma aún no implementada.");
-
+                resultado = num1 + num2;
+                //System.out.println("Operación de suma aún no implementada.");
+                break;
             case '-':
                 resultado = num1 - num2;
                 break;
             case '*':
-                // resultado = num1 * num2;
-                System.out.println("Operaci�n de multiplicaci�n a�n no implementada.");
+                /*System.out.println("Operación de multiplicación aún no implementada.");*/
+                resultado = num1 * num2;
                 break;
             case '/':
                 resultado = num1 / num2;
@@ -40,8 +40,7 @@ public class Main {
                 System.out.println("Operaci�n no v�lida.");
                 return;
         }
-
-        System.out.println("Resultado: " + resultado);
+         System.out.println("Resultado: " + resultado);
         scanner.close();
     }
 }
