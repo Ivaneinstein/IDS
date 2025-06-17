@@ -26,8 +26,7 @@ public class Main {
                 System.out.println("Operación de suma aún no implementada.");
 
             case '-':
-                // resultado = num1 - num2;
-                System.out.println("Operaci�n de resta a�n no implementada.");
+                resultado = num1 - num2;
                 break;
             case '*':
                 // resultado = num1 * num2;
@@ -42,7 +41,7 @@ public class Main {
                 return;
         }
 
-        // System.out.println("Resultado: " + resultado);
+        System.out.println("Resultado: " + resultado);
         scanner.close();
     }
 }
